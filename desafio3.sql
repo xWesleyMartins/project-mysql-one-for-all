@@ -4,5 +4,3 @@ INNER JOIN SpotifyClone.historico_de_reproduções AS hist ON users.id_usuario =
 INNER JOIN SpotifyClone.musica AS duration ON duration.id_musica = hist.id_musica
 GROUP BY usuario
 	ORDER BY usuario;
-
--- href: funçao 'FORMAT': https://www.w3schools.com/Sql/func_mysql_format.asp
